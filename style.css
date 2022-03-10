@@ -3,8 +3,11 @@ a:visited {color:#CE2029; text-decoration:none;}
 a:hover {text-decoration:underline;}
 
 pre {
-  width: 375px;
+  width: 320px;
   position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: xxx-large;
 }
 
 @font-face {
@@ -14,14 +17,8 @@ font-weight: 400;
 font-style: normal;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 820px) {
     pre {
         font-size: x-large;
-    }
-  }
-
-@media screen and (min-width: 320px) {
-    pre {
-        font-size: xxx-large;
     }
   }
