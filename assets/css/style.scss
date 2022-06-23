@@ -3,12 +3,16 @@
 
 @import 'jekyll-theme-dinky';
 
+header {
+    padding: 40px;
+}
+
 pre {
     padding: 0px;
     background: none;
     border-radius: 0px;
     border: 0px;
-    overflow: 0px;
+    overflow: unset;
     overflow-y: unset;
     margin-bottom: 0px;
 }
