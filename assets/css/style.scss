@@ -2,3 +2,18 @@
 ---
 
 @import 'jekyll-theme-dinky';
+
+pre {
+    padding: 0px;
+    background: none;
+    border-radius: 0px;
+    border: 0px;
+    overflow: 0px;
+    overflow-y: unset;
+    margin-bottom: 0px;
+}
+
+.main__title {
+    font-size: xx-large;
+    color: whitesmoke;
+}
